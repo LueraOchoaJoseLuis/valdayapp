@@ -1,0 +1,159 @@
+* {
+  transition: all 0.2s ease-in-out;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  animation: BGcolorChanging-4colors 6s linear infinite alternate both;
+}
+
+@keyframes BGcolorChanging-4colors{
+
+  0%{
+    /* background-color: #3a1c1e; */
+    background-image: url("https://png.pngtree.com/background/20220714/original/pngtree-valentine-s-day-love-background-wallpaper-decoration-picture-image_1606656.jpg");
+  }
+  33.333%{
+    /* background-color: #763031; */
+    background-image: url("https://png.pngtree.com/background/20220714/original/pngtree-valentine-s-day-love-background-wallpaper-decoration-picture-image_1606661.jpg");
+  }
+  66.666%{
+    /* background-color: #7c3446; */
+    background-image: url("https://png.pngtree.com/background/20220714/original/pngtree-valentine-s-day-love-background-wallpaper-decoration-picture-image_1606656.jpg");
+  }
+  100%{
+    /* background-color: #8f7aa4; */
+    background-image: url("https://png.pngtree.com/background/20220714/original/pngtree-valentine-s-day-love-background-wallpaper-decoration-picture-image_1606661.jpg");
+  }
+
+}
+
+.card {
+  position: relative;
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.bear1 {
+  justify-content: center;
+  height: auto;
+  max-width: 100%;
+}
+
+.content {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 2.25rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.hidden-message {
+  display: none; /* Ocultamos el mensaje y la imagen */
+  margin-top: 20px;
+}
+
+.hidden-message img {
+  max-width: 200px; /* Tamaño deseado de la imagen */
+  height: auto;
+}
+
+.hidden-message h2 {
+  font-size: 30px; /* Tamaño de la fuente del mensaje */
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+button {
+  align-items: center;
+  position: relative;
+  border-radius: 0.5rem;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.green {
+  background-color: #28c71a;
+  color: white;
+  margin: 10px; /* Ajustar los márgenes */
+  font-size: 2.25rem;
+  border: white;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center; /* Centrar el texto horizontalmente */
+}
+
+.green:hover{
+  background-color: #23e711; /* Cambio de color al pasar el cursor */
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(25, 184, 46, 0.19); /* Sombra más llamativa */
+}
+
+.red {
+  background-color: #d11e36;
+  color: white;
+  font-size: 2.25rem;
+  margin: 10px; /* Ajustar los márgenes */
+  border: white;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center; /* Centrar el texto horizontalmente */
+}
+
+
+.red:hover{
+  background-color: red; /* Cambio de color al pasar el cursor */
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(167, 36, 36, 0.19); /* Sombra más llamativa */
+}
+
+.entrada {
+  background-color: #F6D6D6;
+  color: #E6A4B4;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+  flex: 1;
+  margin-right: 10px;
+  text-align: center; /* Centrar el texto horizontalmente */
+}
+
+
+.agregar{
+  width: 50px;
+  height: 48px;
+  border-radius: 5px;
+  margin-top: 5px; /* Reducir el espacio entre el campo de entrada y el botón */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+}
+
+.ri-heart-fill{
+  color: #E6A4B4;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.name-input-container{
+  display: flex;
+  align-items: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
