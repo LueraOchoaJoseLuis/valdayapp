@@ -2,3 +2,5 @@ Esta aplicacion sencilla lo realice para el dia de san valentine, para las perso
 aplicacion ya existente pero en ingles --->  https://valentine.mewtru.com 
 
 Espero no ser denunciado (T__T)
+
+https://valdayapp.netlify.app
