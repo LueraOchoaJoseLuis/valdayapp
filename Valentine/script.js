@@ -42,10 +42,10 @@ document.querySelector('.red').addEventListener('click', function() {
     let noButton = document.querySelector('.red');
     switch (clickCount) {
         case 1:
-            noButton.textContent = 'Aguanta';
+            noButton.textContent = 'Di que si';
             break;
         case 2:
-            noButton.textContent = 'Espera que';
+            noButton.textContent = 'Si';
             break;
         case 3:
             noButton.textContent = 'Piensalo bien';
@@ -57,13 +57,13 @@ document.querySelector('.red').addEventListener('click', function() {
             noButton.textContent = 'Que?';
             break;
         case 6:
-            noButton.textContent = 'Espera!';
+            noButton.textContent = 'Sipi?';
             break;
         case 7:
             noButton.textContent = 'Sí?';
             break;
         case 8:
-            noButton.textContent = 'En serio?';
+            noButton.textContent = 'Chi Please';
             break;
         default:
             noButton.textContent = 'Estás segur@?';
