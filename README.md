@@ -1,6 +1,5 @@
-Esta aplicacion sencilla lo realice para el dia de san valentine, para las personas de habla española ya que ya tome la idea de una
-aplicacion ya existente pero en ingles --->  https://valentine.mewtru.com 
+Esta aplicación sencilla la realicé para el Día de San Valentín, dirigida a personas de habla hispana, ya que tomé la idea de una aplicación existente, pero que estaba solo en inglés (https://valentine.mewtru.com).
 
-Espero no ser denunciado (T__T)
+Espero no tener problemas de derechos de autor. (T__T)
 
 https://valdayapp.netlify.app
